@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // find maximum between tow numbers
+        let x = 10;
+        let y = 20;
+        if(x>=y ){
+            console.log("x is greater than y")
+             
+        }
+        else {
+            console.log("x is less than y")
+        }
+// find maximum between three numbers
+        let a = 20;
+        let b = 10;
+        let c = 5;
+         if(a>b)
+         {
+            console.log("a is greater")
+         }
+         if(b>a){
+            console.log("b is grater")
+         }
+         if(b>c){
+            console.log("c is grater")
+         }
+         else{
+            console("a is less")
+         }
+        //  check wheater a number is negative , positive or zero
+
+        let n = prompt("enter any number");
+
+        if (n < 0){
+            console.log("negative")
+        }
+        if (n > 0){
+            console.log("positive")
+        }
+        if (n == 0){
+            console.log("zero")
+        }
+        // check wheater a number is divisible by 5 and 11 or not
+
+        let num = prompt("enter a  number")
+
+        if (num %5==0 && n%11==0){
+            console.log(" divisible by 5 and 11")
+        }
+        else {
+            console.log("not divisible by 5 and 11 ")
+        }
+        // to check wheater a no. is even or odd
+
+        let number = prompt("enter a number")
+
+        if(num %2 == 0){
+            console.log("even")
+        }
+        else {
+            console.log("odd")
+        }
+        // write a program to input any alphabat and check wheater it is a vowel or constant
+    
+
+    
+        // check upper case or lower case
+
+        let charecter  = prompt("enter ch") 
+
+        if(ch >=  A  && ch <= Z){
+            console.log("upper case")
+        }
+         else if(ch >= a && ch <= z) 
+         {
+            console.log("lower case")
+        }
+        else {
+            console.log("not a alphabet nor a ch")
+        }
+
+        // Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer, calculate percentage and grade according to given conditions:
+
+
+        let Physics = prompt("marks")
+        let Chemistry = prompt("marks")
+        let bio = prompt("marks")
+        let maths = prompt("marks")
+        let computer = prompt("marks")
+
+        percentage = (Physics , Chemistry , bio , maths  , computer)/5.0;
+        console.log("percentage = %.2f\n", percentage);
+
+        
+    </script>
+</body>
+</html>
